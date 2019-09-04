@@ -1,0 +1,246 @@
+login as: matthewquaas
+Pre-authentication banner message from server:
+| systems administrator's mailing list: loki@pki.nebraska.edu
+|
+| Loki will be decommissioned and replaced by a new server in the Spring 2019 s
+> emester. More details to come.
+End of banner message from server
+matthewquaas@loki.ist.unomaha.edu's password:
+Welcome to loki
+
+
+You have new mail.
+Last login: Tue Sep  3 15:22:37 2019 from ip24-252-31-11.om.om.cox.net
+matthewquaas@loki:~$ ls
+1300-002   perl              S18_1300-002_a12  S18_1300-002_a4  S18_1300-002_a9
+1300-DEMO  perl_practice     S18_1300-002_a13  S18_1300-002_a5  temp.pl
+a2         public_html       S18_1300-002_a14  S18_1300-002_a6
+CS_I       S18_1300-002_a10  S18_1300-002_a2   S18_1300-002_a7
+Mail       S18_1300-002_a11  S18_1300-002_a3   S18_1300-002_a8
+matthewquaas@loki:~$ cd public_html
+matthewquaas@loki:~/public_html$ ls
+a2  a5  index.html       project   S18 1300-002 a2  tutorial2.html
+a3  a6  Lab20            project2  tutorial1.html   tutorial3
+a4  a7  php-cgi-wrapper  project3  tutorial2a.html
+matthewquaas@loki:~/public_html$ cd project
+matthewquaas@loki:~/public_html/project$ ls
+css  Fall.html  images  index.html  Spring.html  Summer.html  Winter.html
+matthewquaas@loki:~/public_html/project$ ls -l
+total 28
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr  5  2018 css
+-rw-r----- 1 matthewquaas matthewquaas  587 Apr  5  2018 Fall.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr  5  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2312 Apr  5  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas  599 Apr  5  2018 Spring.html
+-rw-r----- 1 matthewquaas matthewquaas  591 Apr  5  2018 Summer.html
+-rw-r----- 1 matthewquaas matthewquaas  599 Apr  5  2018 Winter.html
+matthewquaas@loki:~/public_html/project$ vim css
+matthewquaas@loki:~/public_html/project$ cd ..
+matthewquaas@loki:~/public_html$ ls -l
+total 68
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Jan 30  2018 a2
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 28  2018 a3
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 18  2018 a4
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 28  2018 a5
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Mar  1  2018 a6
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Mar  5  2018 a7
+-rw-r----- 1 matthewquaas matthewquaas  681 Jan 23  2018 index.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr 19  2018 Lab20
+-rwxr-x--- 1 matthewquaas matthewquaas   95 Jan 23  2018 php-cgi-wrapper
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Sep  3 15:36 project
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Apr 17  2018 project2
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Apr 26  2018 project3
+-rw-r----- 1 matthewquaas matthewquaas  681 Jan 23  2018 S18 1300-002 a2
+-rw-r----- 1 matthewquaas matthewquaas  271 Feb  8  2018 tutorial1.html
+-rw-r----- 1 matthewquaas matthewquaas  299 Feb  8  2018 tutorial2a.html
+-rw-r----- 1 matthewquaas matthewquaas  297 Feb  8  2018 tutorial2.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb  8  2018 tutorial3
+matthewquaas@loki:~/public_html$ cd project3
+matthewquaas@loki:~/public_html/project3$ ls -l
+total 36
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr 17  2018 css
+-rw-r----- 1 matthewquaas matthewquaas 1039 Apr 17  2018 Fall.html
+-rw-r----- 1 matthewquaas matthewquaas  741 May  3  2018 form.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr 17  2018 Images
+-rw-r----- 1 matthewquaas matthewquaas 2599 May  3  2018 index.html
+-rwxr----- 1 matthewquaas matthewquaas  541 May  3  2018 process.cgi
+-rw-r----- 1 matthewquaas matthewquaas 1033 Apr 17  2018 Spring.html
+-rw-r----- 1 matthewquaas matthewquaas 1486 Apr 17  2018 Summer.html
+-rw-r----- 1 matthewquaas matthewquaas 1583 Apr 17  2018 Winter.html
+matthewquaas@loki:~/public_html/project3$ vim css
+matthewquaas@loki:~/public_html/project3$ vim css
+matthewquaas@loki:~/public_html/project3$ ls -l
+total 36
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Sep  3 15:38 css
+-rw-r----- 1 matthewquaas matthewquaas 1039 Apr 17  2018 Fall.html
+-rw-r----- 1 matthewquaas matthewquaas  741 May  3  2018 form.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr 17  2018 Images
+-rw-r----- 1 matthewquaas matthewquaas 2599 May  3  2018 index.html
+-rwxr----- 1 matthewquaas matthewquaas  541 May  3  2018 process.cgi
+-rw-r----- 1 matthewquaas matthewquaas 1033 Apr 17  2018 Spring.html
+-rw-r----- 1 matthewquaas matthewquaas 1486 Apr 17  2018 Summer.html
+-rw-r----- 1 matthewquaas matthewquaas 1583 Apr 17  2018 Winter.html
+matthewquaas@loki:~/public_html/project3$ vim index.html
+matthewquaas@loki:~/public_html/project3$ cd ..
+matthewquaas@loki:~/public_html$ ls -l
+total 68
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Jan 30  2018 a2
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 28  2018 a3
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 18  2018 a4
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 28  2018 a5
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Mar  1  2018 a6
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Mar  5  2018 a7
+-rw-r----- 1 matthewquaas matthewquaas  681 Jan 23  2018 index.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr 19  2018 Lab20
+-rwxr-x--- 1 matthewquaas matthewquaas   95 Jan 23  2018 php-cgi-wrapper
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Sep  3 15:36 project
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Apr 17  2018 project2
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Sep  3 15:39 project3
+-rw-r----- 1 matthewquaas matthewquaas  681 Jan 23  2018 S18 1300-002 a2
+-rw-r----- 1 matthewquaas matthewquaas  271 Feb  8  2018 tutorial1.html
+-rw-r----- 1 matthewquaas matthewquaas  299 Feb  8  2018 tutorial2a.html
+-rw-r----- 1 matthewquaas matthewquaas  297 Feb  8  2018 tutorial2.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb  8  2018 tutorial3
+matthewquaas@loki:~/public_html$ cd a2
+matthewquaas@loki:~/public_html/a2$ ls
+index.html
+matthewquaas@loki:~/public_html/a2$ vim index
+matthewquaas@loki:~/public_html/a2$ cd ..
+matthewquaas@loki:~/public_html$ ls
+a2  a3  a4  a5  a6  a7  index.html  Lab20  php-cgi-wrapper  project  project2  project3  S18 1300-002 a2  tutorial1.html  tutorial2a.html  tutorial2.html  tutorial3
+matthewquaas@loki:~/public_html$ ls -l
+total 68
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Sep  3 15:39 a2
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 28  2018 a3
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 18  2018 a4
+drwxr-x--- 3 matthewquaas matthewquaas 4096 Feb 28  2018 a5
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Mar  1  2018 a6
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Mar  5  2018 a7
+-rw-r----- 1 matthewquaas matthewquaas  681 Jan 23  2018 index.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Apr 19  2018 Lab20
+-rwxr-x--- 1 matthewquaas matthewquaas   95 Jan 23  2018 php-cgi-wrapper
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Sep  3 15:36 project
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Apr 17  2018 project2
+drwxr-x--- 4 matthewquaas matthewquaas 4096 Sep  3 15:39 project3
+-rw-r----- 1 matthewquaas matthewquaas  681 Jan 23  2018 S18 1300-002 a2
+-rw-r----- 1 matthewquaas matthewquaas  271 Feb  8  2018 tutorial1.html
+-rw-r----- 1 matthewquaas matthewquaas  299 Feb  8  2018 tutorial2a.html
+-rw-r----- 1 matthewquaas matthewquaas  297 Feb  8  2018 tutorial2.html
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb  8  2018 tutorial3
+matthewquaas@loki:~/public_html$ cd a6
+matthewquaas@loki:~/public_html/a6$ ls -l
+total 20
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Mar  1  2018 css
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb 27  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2791 Mar  1  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 3056 Mar  1  2018 pagethree.html
+-rw-r----- 1 matthewquaas matthewquaas 3035 Apr  5  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a6$ vim css
+matthewquaas@loki:~/public_html/a6$ vim index.html
+matthewquaas@loki:~/public_html/a6$ cd ..
+matthewquaas@loki:~/public_html$ cd a4
+matthewquaas@loki:~/public_html/a4$ ls -l
+total 12
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb 13  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2381 Feb 13  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 2741 Feb 18  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a4$ cd ..
+matthewquaas@loki:~/public_html$ cd a5
+matthewquaas@loki:~/public_html/a5$ ls -l
+total 16
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb 19  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2534 Feb 22  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 2834 Feb 22  2018 pagethree.html
+-rw-r----- 1 matthewquaas matthewquaas 2860 Feb 22  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a5$ cd ..
+matthewquaas@loki:~/public_html$ cd a7
+matthewquaas@loki:~/public_html/a7$ ls -l
+total 20
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Mar  5  2018 css
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Mar  5  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2789 Mar  5  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 3054 Mar  5  2018 pagethree.html
+-rw-r----- 1 matthewquaas matthewquaas 3026 Mar  5  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a7$ vim css
+matthewquaas@loki:~/public_html/a7$ cd ..
+matthewquaas@loki:~/public_html$ cd a6
+matthewquaas@loki:~/public_html/a6$ ls -l
+total 20
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Sep  3 15:39 css
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb 27  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2791 Mar  1  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 3056 Mar  1  2018 pagethree.html
+-rw-r----- 1 matthewquaas matthewquaas 3035 Apr  5  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a6$ cd css
+matthewquaas@loki:~/public_html/a6/css$ ls -l
+total 12
+-rw-r----- 1 matthewquaas matthewquaas 1222 Mar  1  2018 my.css
+-rw-r----- 1 matthewquaas matthewquaas 6052 Feb 27  2018 normalize.css
+matthewquaas@loki:~/public_html/a6/css$ vim my.css
+matthewquaas@loki:~/public_html/a6/css$ vim normalize.css
+matthewquaas@loki:~/public_html/a6/css$ cd ..
+matthewquaas@loki:~/public_html/a6$ ls -l
+total 20
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Sep  3 15:50 css
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb 27  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2791 Mar  1  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 3056 Mar  1  2018 pagethree.html
+-rw-r----- 1 matthewquaas matthewquaas 3035 Apr  5  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a6$ vim index.html
+matthewquaas@loki:~/public_html/a6$ ls -l
+total 20
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Sep  3 15:50 css
+drwxr-x--- 2 matthewquaas matthewquaas 4096 Feb 27  2018 images
+-rw-r----- 1 matthewquaas matthewquaas 2791 Mar  1  2018 index.html
+-rw-r----- 1 matthewquaas matthewquaas 3056 Mar  1  2018 pagethree.html
+-rw-r----- 1 matthewquaas matthewquaas 3035 Apr  5  2018 pagetwo.html
+matthewquaas@loki:~/public_html/a6$ cd css
+matthewquaas@loki:~/public_html/a6/css$ ls -l
+total 12
+-rw-r----- 1 matthewquaas matthewquaas 1222 Mar  1  2018 my.css
+-rw-r----- 1 matthewquaas matthewquaas 6052 Feb 27  2018 normalize.css
+matthewquaas@loki:~/public_html/a6/css$ vim normalize.css
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+                                                                                                                                   341,1         Bot
+
